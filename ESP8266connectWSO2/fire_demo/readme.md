@@ -1,0 +1,6 @@
+wifi的名称和密码需要改成当前用的。
+type：改成使用的设备类型名
+deviceid：改成当前使用的设备名称
+mqtt_server：访问的ip
+httpGateway：访问的ip
+buildStr函数中数据格式是使用的数据格式

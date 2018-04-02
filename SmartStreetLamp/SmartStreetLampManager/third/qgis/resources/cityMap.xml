@@ -1,0 +1,319 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis simplifyLocal="1" version="2.99.0-Master" readOnly="0" minimumScale="1" simplifyAlgorithm="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="1" simplifyMaxScale="1" simplifyDrawingTol="1" maximumScale="1.5e+6">
+ <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+  <symbols>
+   <symbol alpha="1" clip_to_extent="1" name="0" type="fill">
+    <layer class="SimpleFill" pass="0" enabled="1" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="0,0,0,0"/>
+     <prop k="joinstyle" v="bevel"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="1"/>
+     <prop k="outline_width_unit" v="Pixel"/>
+     <prop k="style" v="solid"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option value="" name="name" type="QString"/>
+       <Option name="properties"/>
+       <Option value="collection" name="type" type="QString"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </symbols>
+  <rotation/>
+  <sizescale/>
+ </renderer-v2>
+ <customproperties>
+  <property value="0" key="embeddedWidgets/count"/>
+  <property key="variableNames"/>
+  <property key="variableValues"/>
+ </customproperties>
+ <blendMode>0</blendMode>
+ <featureBlendMode>0</featureBlendMode>
+ <layerOpacity>1</layerOpacity>
+ <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Pie" sizeLegend="0">
+  <DiagramCategory rotationOffset="270" scaleDependency="Area" penWidth="0" penColor="#000000" sizeType="MM" lineSizeScale="0,0,0,0,0,0" diagramOrientation="Up" maxScaleDenominator="1e+8" enabled="0" width="15" backgroundAlpha="255" minScaleDenominator="inf" minimumSize="0" barWidth="5" height="15" backgroundColor="#ffffff" lineSizeType="MM" labelPlacementMethod="XHeight" scaleBasedVisibility="0" opacity="1" sizeScale="0,0,0,0,0,0" penAlpha="255">
+   <fontProperties style="" description="SimSun,9,-1,5,50,0,0,0,0,0"/>
+   <attribute field="" color="#000000" label=""/>
+  </DiagramCategory>
+  <symbol alpha="1" clip_to_extent="1" name="sizeSymbol" type="marker">
+   <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
+    <prop k="angle" v="0"/>
+    <prop k="color" v="255,0,0,255"/>
+    <prop k="horizontal_anchor_point" v="1"/>
+    <prop k="joinstyle" v="bevel"/>
+    <prop k="name" v="circle"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="solid"/>
+    <prop k="outline_width" v="0"/>
+    <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="scale_method" v="diameter"/>
+    <prop k="size" v="2"/>
+    <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="size_unit" v="MM"/>
+    <prop k="vertical_anchor_point" v="1"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+ </SingleCategoryDiagramRenderer>
+ <DiagramLayerSettings placement="0" obstacle="0" linePlacementFlags="10" zIndex="0" showAll="1" dist="0" priority="0">
+  <properties>
+   <Option type="Map">
+    <Option value="" name="name" type="QString"/>
+    <Option name="properties" type="Map">
+     <Option name="show" type="Map">
+      <Option value="true" name="active" type="bool"/>
+      <Option value="AREA" name="field" type="QString"/>
+      <Option value="2" name="type" type="int"/>
+     </Option>
+    </Option>
+    <Option value="collection" name="type" type="QString"/>
+   </Option>
+  </properties>
+ </DiagramLayerSettings>
+ <fieldConfiguration>
+  <field name="AREA">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="PERIMETER">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="BOUNT_">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="BOUNT_ID">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="GBCODE">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="ADCODE99">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="NAME99">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="SH2">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="DI2">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="X2">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="CENTROID_Y">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+  <field name="CENTROID_X">
+   <editWidget type="TextEdit">
+    <config>
+     <Option type="Map">
+      <Option value="0" name="IsMultiline" type="QString"/>
+      <Option value="0" name="UseHtml" type="QString"/>
+     </Option>
+    </config>
+   </editWidget>
+  </field>
+ </fieldConfiguration>
+ <aliases>
+  <alias index="0" name="" field="AREA"/>
+  <alias index="1" name="" field="PERIMETER"/>
+  <alias index="2" name="" field="BOUNT_"/>
+  <alias index="3" name="" field="BOUNT_ID"/>
+  <alias index="4" name="" field="GBCODE"/>
+  <alias index="5" name="" field="ADCODE99"/>
+  <alias index="6" name="" field="NAME99"/>
+  <alias index="7" name="" field="SH2"/>
+  <alias index="8" name="" field="DI2"/>
+  <alias index="9" name="" field="X2"/>
+  <alias index="10" name="" field="CENTROID_Y"/>
+  <alias index="11" name="" field="CENTROID_X"/>
+ </aliases>
+ <excludeAttributesWMS/>
+ <excludeAttributesWFS/>
+ <defaults>
+  <default field="AREA" expression=""/>
+  <default field="PERIMETER" expression=""/>
+  <default field="BOUNT_" expression=""/>
+  <default field="BOUNT_ID" expression=""/>
+  <default field="GBCODE" expression=""/>
+  <default field="ADCODE99" expression=""/>
+  <default field="NAME99" expression=""/>
+  <default field="SH2" expression=""/>
+  <default field="DI2" expression=""/>
+  <default field="X2" expression=""/>
+  <default field="CENTROID_Y" expression=""/>
+  <default field="CENTROID_X" expression=""/>
+ </defaults>
+ <constraints>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="AREA" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="PERIMETER" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="BOUNT_" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="BOUNT_ID" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="GBCODE" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="ADCODE99" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="NAME99" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="SH2" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="DI2" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="X2" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="CENTROID_Y" notnull_strength="0"/>
+  <constraint exp_strength="0" unique_strength="0" constraints="0" field="CENTROID_X" notnull_strength="0"/>
+ </constraints>
+ <constraintExpressions>
+  <constraint exp="" field="AREA" desc=""/>
+  <constraint exp="" field="PERIMETER" desc=""/>
+  <constraint exp="" field="BOUNT_" desc=""/>
+  <constraint exp="" field="BOUNT_ID" desc=""/>
+  <constraint exp="" field="GBCODE" desc=""/>
+  <constraint exp="" field="ADCODE99" desc=""/>
+  <constraint exp="" field="NAME99" desc=""/>
+  <constraint exp="" field="SH2" desc=""/>
+  <constraint exp="" field="DI2" desc=""/>
+  <constraint exp="" field="X2" desc=""/>
+  <constraint exp="" field="CENTROID_Y" desc=""/>
+  <constraint exp="" field="CENTROID_X" desc=""/>
+ </constraintExpressions>
+ <attributeactions/>
+ <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+  <columns>
+   <column width="-1" name="AREA" hidden="0" type="field"/>
+   <column width="-1" name="PERIMETER" hidden="0" type="field"/>
+   <column width="-1" name="BOUNT_" hidden="0" type="field"/>
+   <column width="-1" name="BOUNT_ID" hidden="0" type="field"/>
+   <column width="-1" name="GBCODE" hidden="0" type="field"/>
+   <column width="-1" name="ADCODE99" hidden="0" type="field"/>
+   <column width="-1" name="NAME99" hidden="0" type="field"/>
+   <column width="-1" name="SH2" hidden="0" type="field"/>
+   <column width="-1" name="DI2" hidden="0" type="field"/>
+   <column width="-1" name="X2" hidden="0" type="field"/>
+   <column width="-1" name="CENTROID_Y" hidden="0" type="field"/>
+   <column width="-1" name="CENTROID_X" hidden="0" type="field"/>
+   <column width="-1" hidden="1" type="actions"/>
+  </columns>
+ </attributetableconfig>
+ <editform>D:/testCode/yyy-vs2015/release/map/shanxilocal.qgs</editform>
+ <editforminit/>
+ <editforminitcodesource>0</editforminitcodesource>
+ <editforminitfilepath>D:/testCode/yyy-vs2015/release/map/shanxilocal.qgs</editforminitfilepath>
+ <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+ <featformsuppress>0</featformsuppress>
+ <editorlayout>generatedlayout</editorlayout>
+ <widgets/>
+ <conditionalstyles>
+  <rowstyles/>
+  <fieldstyles/>
+ </conditionalstyles>
+ <expressionfields/>
+ <previewExpression>COALESCE( "NAME99", '&lt;NULL>' )</previewExpression>
+ <mapTip></mapTip>
+ <layerGeometryType>2</layerGeometryType>
+</qgis>

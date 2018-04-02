@@ -1,0 +1,29 @@
+{
+    "KaaControlIp":"192.168.200.140",
+    "KaaControlPort":"8080",
+    "KaaUser":"user",
+    "KaaPasswd":"user123",
+    "ApplicationID":"1",
+    "groupIDs":[
+                {
+                    "StreetID":"0101010001",
+                    "Id":"2"
+                },
+				{
+                    "StreetID":"0101010002",
+                    "Id":"32768"
+                },
+				{
+                    "StreetID":"0101010003",
+                    "Id":"32769"
+                },
+				{
+                    "StreetID":"010101",
+                    "Id":"32770"
+                }
+                ],
+    "ConfigSchemaId":"7"
+}
+
+
+
